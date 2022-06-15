@@ -1,0 +1,49 @@
+@import 'default/mixins';
+@import 'default/null';
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url(../img/bg.png) no-repeat center center fixed;
+    background-size: cover;;
+    .container{
+        padding: rem(58) rem(55);
+        background-color: rgba(201, 222, 244, 0.5);
+        border-radius: rem(40);
+        form{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-around;
+            gap: rem(25);
+            input{
+                text-align: center;                
+                padding: rem(10) rem(20);
+                border-radius: rem(10);
+                font-size: rem(25);
+                font-family: "Montserrat";
+            }
+            button{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                background-color: #6189BC;
+                font-family: "Montserrat";
+                color:#fff;
+                padding: rem(12) rem(68);
+                border-radius: rem(10);
+                font-size: rem(20);
+                &:hover{
+                    background-color: #CFE1F8;
+                    color:#000;
+                }
+            }
+        }       
+    }
+}
+
+@font-face {
+    font-family: "Montserrat";
+    src: url(../fonts/Montserratregular.ttf);
+}
