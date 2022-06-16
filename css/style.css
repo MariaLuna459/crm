@@ -1,0 +1,215 @@
+*
+{
+	margin: 0px;
+	padding: 0px;
+}
+
+.wrapper
+{
+	height: 100vh;
+	width: 100%;
+	display: flex;
+}
+
+a
+{
+	text-decoration: none;
+}
+
+nav
+{
+	display: flex;
+	height: 100%;
+	width: 280px;
+	border-radius: 0px 0px 50px 0px;
+	background-color: #C9DEF4;
+	flex-direction: column;
+}
+
+.logo
+{
+	width: 280px;
+	height: 200px;
+	display: flex;
+	flex-direction: column;
+    align-items: center;
+	padding-top: 16px;
+}
+
+.logo_img
+{
+	width: 104px;
+	height: 104px;
+	background-image: url(../img/logo.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.logo_text
+{
+	font-size: 30pt;
+	color: black;
+	padding-top: 9px;
+}
+
+.boll
+{
+	height: 50px;
+	width: 50px;
+	border-radius: 50px;
+	background-color: #5173FF;
+	display: flex;
+	justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-left: 23px;
+} 
+
+
+.icon_office
+{
+	background-image: url(../img/office.png);
+	height: 23px;
+	width: 23px;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.icon_client
+{
+	background-image: url(../img/calls.png);
+	height: 23px;
+	width: 23px;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.icon_chat
+{
+	background-image: url(../img/chat.png);
+	height: 23px;
+	width: 23px;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.icon_project
+{
+	background-image: url(../img/project.png);
+	height: 23px;
+	width: 30px;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.icon_plus
+{
+	background-image: url(../img/add.png);
+	height: 23px;
+	width: 23px;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.icon_exit
+{
+	background-image: url(../img/exit.png);
+	height: 23px;
+	width: 23px;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.nav_block
+{
+	display: flex;
+	flex-direction: row;
+    align-items: center;
+
+}
+
+.text
+{
+	font-size: 20pt;
+	color: black;
+	margin-left: 10px;
+	margin-bottom: 20px;
+}
+
+.text_exit
+{
+	font-size: 20pt;
+	color: black;
+	margin-left: 20px;
+}
+
+.exit
+{
+	margin-top: 350px;
+	margin-left: 29px;
+	display: flex;
+	align-items: center;
+}
+
+h1
+{
+	font-size: 64pt;
+	margin-left: 82px;
+	margin-top: 60px;
+	font-weight: normal;
+}
+
+span
+{
+	display: block;
+	width: 1248px;
+	height: 1px;
+	background-color: #C9DEF4;
+	margin-left: 82px;
+}
+
+th
+{
+	width: 200px;
+	color: #737373;
+	text-align: left;
+}
+
+td
+{
+	padding-left: 10px;
+	border: 1px solid black;
+	border-radius: 5px;
+	width: 100px;
+	height: 45px;
+}
+
+table
+{
+	width: 100%;
+	margin-left: 56px;
+	border-spacing: 26px;
+}
+
+.text_block
+{
+	border-radius: 5px;
+	padding-left: 10px;
+	height: 45px;
+	margin-right: 26px;
+}
+
+form
+{
+	margin-left: 82px;
+	margin-top: 20px;
+}
+
+.button
+{
+	height: 45px;
+	width: 183px;
+	background-color: #fff;
+	border: 1px solid #737373;
+	border-radius: 5px;
+}
